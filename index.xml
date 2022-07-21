@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reginaldo Demarque</title>
+    <link>https://reginaldodr.github.io/blog-math/</link>
+    <description>Recent content on Reginaldo Demarque</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como usar Python no LaTeX</title>
+      <link>https://reginaldodr.github.io/blog-math/post/2022-07-21-como-usar-python-no-latex/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/post/2022-07-21-como-usar-python-no-latex/</guid>
+      <description>Recentemente me perguntei se poderia usar o python para gerar gabarito de provas. Eis que descobri o pythontex! Uma rápida pesquisa no google me levou ao site: A very simple introduction to using Python in Latex
+Ali aprendi dicas valiosas e em poucos minutos consegui fazer o que queria. Mas tive algumas dificuldades em tornar mais prática a compilação no linux usando o TexStudio. Depois de mais pesquisas e quebrar um pouco a cabeça consegui um resultado que esta satisfatório para mim.</description>
+    </item>
+    
+    <item>
+      <title>Relation between distributional derivatives</title>
+      <link>https://reginaldodr.github.io/blog-math/post/2022-07-18-distribuitions/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/post/2022-07-18-distribuitions/</guid>
+      <description>Relation between distributional derivatives in $L^2(0,T;L^2(\Omega))$ and $L^2(Q)$ 1. Distributional Derivatives Given $T&amp;gt;0$ and $\Omega\subset \mathbb{R}^n$ an open set let us denote $Q=(0,T)\times \Omega$. A function $u\in L^2(Q)$ can also be seen as a vector valued mapping in $L^2(0,T;L^2(\Omega))$. This give us two notion of distributional derivatives. Our aim is prove they coincide. In order to do that, we need to introduce a fundamental density result given in 1.
+Given $\Omega_x\subset \mathbb{R}^n$, $\Omega_y\in \mathbb{R}^m$ open sets, let $\mathcal{D}(\Omega_x)$, $\mathcal{D}(\Omega_y)$ and $\mathcal{D}(\Omega_x\times \Omega_y)$ be the test space of infinitely differentiable functions with compact support.</description>
+    </item>
+    
+    <item>
+      <title>Sobre Este Blog</title>
+      <link>https://reginaldodr.github.io/blog-math/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/about/</guid>
+      <description>Este blog&amp;hellip;s</description>
+    </item>
+    
+  </channel>
+</rss>

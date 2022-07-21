@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Reginaldo Demarque</title>
+    <link>https://reginaldodr.github.io/blog-math/categories/</link>
+    <description>Recent content in Categories on Reginaldo Demarque</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>derivative</title>
+      <link>https://reginaldodr.github.io/blog-math/categories/derivative/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/categories/derivative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distributions</title>
+      <link>https://reginaldodr.github.io/blog-math/categories/distributions/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/categories/distributions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>https://reginaldodr.github.io/blog-math/categories/latex/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/categories/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://reginaldodr.github.io/blog-math/categories/python/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/categories/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
