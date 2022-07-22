@@ -9,11 +9,12 @@ categories:
 tags:
 - distributions
 - derivative
-toc: yes
+toc: no
 type: post
 bibliography: references.bib
 link-citations: TRUE
 output: html_document
+draft: yes
 ---
 ## Relation between distributional derivatives in $L^2(0,T;L^2(\Omega))$ and  $L^2(Q)$
 
@@ -100,21 +101,95 @@ And, we have that $u_{x_i}=D_{x_i}u$ in $\mathcal{D}'(Q)$.
 
 Therefore, we also can conclude that $D_tu=u'\in D'(0,T;L^2(\Omega))$ and $D_{x_i}u=u_{x_i}\in L^2(0,T;H^{-1}(\Omega))$.
 
-Furthermore, we can see that $u_{x_ix_j}\in L^2(0,T;H^{-2}(\Omega))$. Following the same reasoning, we can define $u_{x_ix_j}$ on $\mathcal{D}(0,T)\otimes \mathcal{D}(\Omega)$ and, by a density argument, extend it to $\mathcal{D}(Q)$ with $D_{x_ix_j}u=u_{x_ix_j}$ in $\mathcal{D}'(Q)$. Similarly,  $u_{tt}\in \D'(0,T;L^2(\Omega))$, then we can define $u''$ as a distribution $\mathcal{D}'(Q)$ with $D_{tt}u=u''$. 
+Furthermore, we can see that $u_{x_ix_j}\in L^2(0,T;H^{-2}(\Omega))$. Following the same reasoning, we can define $u_{x_ix_j}$ on $\mathcal{D}(0,T)\otimes \mathcal{D}(\Omega)$ and, by a density argument, extend it to $\mathcal{D}(Q)$ with $D_{x_ix_j}u=u_{x_ix_j}$ in $\mathcal{D}'(Q)$. Similarly,  $u_{tt}\in \mathcal{D}'(0,T;L^2(\Omega))$, then we can define $u''$ as a distribution $\mathcal{D}'(Q)$ with $D_{tt}u=u''$. 
 
 Therefore, from now on, we will stop using the $D$-notation for distributional derivative in $Q$ and use the same notation of vector-distribution. 
 
 
 ### 2. Application to ultra-weak solution of wave equation
 
+Let us consider the problem
+
+<p>
+$$
+\begin{equation}\tag{1}\label{pb1}
+	\begin{cases}
+		z''-\Delta z=0 \text{ in } Q,\\
+		z=0 \text{ on } (0,T)\times \partial \Omega,\\
+		z(0)=z^0,\ z'(0)=z^1 \text{ in } \Omega,
+	\end{cases}
+\end{equation}
+$$
+</p>
+where $z^0\in L^2(\Omega)$ and $z^1\in H^{-1}(\Omega)$. As the initial values are not regular, we need a different definition of solution, the so called ***solution by transposition*** or ***ultra weak solution***. 
+
+>**Definition 2.1: **	Given  $(z^0,z^1)\in L^2(\Omega)\times H^{-1}(\Omega)$, we say $z\in L^2(Q)$ is a  ***ultra weak solution*** or a ***solution by transposition*** of \eqref{pb1} if, for each $f\in \mathcal{D}(Q)$ given, we have
+$$
+\iint\limits_Q zf d xd t=-(z^0,\theta'(0))+\langle z^1,\theta(0)\rangle,
+$$
+
+>where $\theta$ is the classical  solution of 
+
+><p>
+$$
+\begin{equation}\label{pb2}\tag{2}
+	\begin{cases}
+		\theta''-\Delta \theta=f \text{ in } Q,\\
+		\theta=0 \text{ on } (0,T)\times \partial \Omega,\\
+		\theta(T)=\theta'(T)=0\text{ in } \Omega.
+	\end{cases}
+\end{equation}
+$$
+</p>
+
+Let us estate an existence result which can be seen in Theorem 4.2, pag. 46 of [@lions1988] or Theorem 4.1, pag. 45 of [@medeiros2013introduction]
 
 
+>***Theorem 2.2:***
+	Let $\Omega\subset \mathbb{R}^n$ be a bounded domain with $\partial \Omega$ of class $C^2$. For all $(z^0,z^1)\in L^2(\Omega)\times H^{-1}(\Omega)$, there exist a unique ultra weak solution $z$ of \eqref{pb1}. Moreover,  $z\in C^0([0,T];L^2(\Omega))\cap C^1([0,T];H^{-1}(\Omega))$ and there exists $C>0$ such that
+$$
+\|z\|_{L^\infty(0,T;L^2(\Omega))}+\|z'\|_{L^\infty(0,T;L^2(\Omega))} \leq C\left(\|z^0\|_{L^2(\Omega)}+\|z^1\|_{H^{-1}(\Omega)}\right).
+$$
 
+For the sake of simplicity, from now on, we will consider $\Omega=(0,1)$.
 
-[@lions1988]
+Given $z^1\in H^{-1}(\Omega)$, take $\psi\in H_0^1(\Omega)$ the weak solution to the elliptic problem
+\begin{equation*}
+	\begin{cases}
+		\psi_{xx} = z^1 \text{ in } \Omega,\\
+		\psi=0 \text{ in  } \partial \Omega.
+	\end{cases}
+\end{equation*}
+
+Given $z$ a ultra weak solution of \eqref{pb1}, define $w(t,x)=\int_0^t z(s,x)d s+\psi(x)$. Let us prove that $w$ is a weak solution of 
+
+\begin{equation}\label{pb3}\tag{3}
+	\begin{cases}
+		w''-w_{xx}=0 \text{ in } Q,\\
+		w=0 \text{ on } (0,T)\times \partial \Omega,\\
+		w(0)=\psi,\ w'(0)=z^0 \text{ in } \Omega.
+	\end{cases}
+\end{equation}
+
+It is easy to see that $w(0)=\psi\in H_0^1(\Omega)$, $w'(0)=z^0\in L^2(\Omega)$ and 
+$w=0$ on $(0,T)\times \Omega$. We just need to prove that $w$ satisfies the equation in the weak sense.
+
+First, let us prove that 
+\[z''-z_{xx}=0 \text{ in } \mathcal{D}'(Q).\]
+Indeed, given $\phi\in \mathcal{D}(Q)$, we have that $\phi$ is the solution to \eqref{pb2} with $f=\phi''-\phi_{xx}$. From definition of ultra weak solution we have that
+\[\iint\limits_Q z(\phi''-\phi_{xx})d xd t=-(z^0,\phi'(0))+\langle z^1,\phi(0)\rangle =0.\]
+Hence, 
+\[\langle\!\langle z''-z_{xx},\phi\rangle\!\rangle=0,\]
+that is
+\[z''-z_{xx} \text{ in } \mathcal{D}'(Q).\]
+Consequently, 
+\[z''-z_{xx}=0 \text{ a.e  in } Q.\]
+Since $z_{xx}\in C^0([0,T];H^{-2}(\Omega))$, then $z''\in C^0([0,T];H^{-2}(\Omega))$. Also, note that $w''=z'\in C^0([0,T];H^{-1}(\Omega))$. Hence, we can see 
+\[w_{xx}(t)=\int_0^tz_{xx}(s)d s+\psi_{xx}=\int_0^t z''(s)d s+z^1=z'(t)-z'(0)+z^1=w''(t).\]
+Then $w$ is a weak solution to \eqref{pb3} and $w_{xx}\in C^0([0,T];H^{-1}(\Omega))$. Hence, from regularity results, we know that $w\in L^\infty(0,T;H_0^1(\Omega))$, which implies $z=w'\in D'(0,T;H_0^1(\Omega))$, that is, 
+\[z(t,\cdot)\varphi(t) \in H_0^1(\Omega),\ \forall \varphi\in \mathcal{D}(0,T) \text{ and  a.e in } (0,T).\]
 
 
 ## References
-
-
+&nbsp;
 

@@ -20,15 +20,6 @@ Muito tutoriais, muito bons aliás, ensinam basicamente a mesma coisa, mas todos
     </item>
     
     <item>
-      <title>Relation between distributional derivatives</title>
-      <link>https://reginaldodr.github.io/blog-math/post/2022-07-21-r-markdown/teste/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://reginaldodr.github.io/blog-math/post/2022-07-21-r-markdown/teste/</guid>
-      <description>Relation between distributional derivatives in \(L^2(0,T;L^2(\Omega))\) and \(L^2(Q)\) 1. Distributional Derivatives Given \(T&amp;gt;0\) and \(\Omega\subset \mathbb{R}^n\) an open set let us denote \(Q=(0,T)\times \Omega\). A function \(u\in L^2(Q)\) can also be seen as a vector valued mapping in \(L^2(0,T;L^2(\Omega))\). This give us two notion of distributional derivatives. Our aim is prove they coincide. In order to do that, we need to introduce a fundamental density result given in (Friedlander et al.</description>
-    </item>
-    
-    <item>
       <title>Como usar Python no LaTeX</title>
       <link>https://reginaldodr.github.io/blog-math/post/2022-07-21-como-usar-python-no-latex/</link>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
@@ -44,7 +35,7 @@ Ali aprendi dicas valiosas e em poucos minutos consegui fazer o que queria. Mas 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://reginaldodr.github.io/blog-math/about/</guid>
-      <description>Este blog&amp;hellip;s</description>
+      <description>Este blog, assim como qualquer blog, tem como objetivo ser um espaço para expressar ideias e opiniões. Além disso, também pretende ser um repositório de informações sobre matemática, ferramentas, tutoriais e outras coisas que vou descobrindo.</description>
     </item>
     
   </channel>
