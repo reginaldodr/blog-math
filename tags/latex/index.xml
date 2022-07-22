@@ -6,11 +6,11 @@
     <description>Recent content in latex on Reginaldo Demarque</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como usar Python no LaTeX</title>
       <link>https://reginaldodr.github.io/blog-math/post/2022-07-21-como-usar-python-no-latex/</link>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://reginaldodr.github.io/blog-math/post/2022-07-21-como-usar-python-no-latex/</guid>
       <description>Recentemente me perguntei se poderia usar o python para gerar gabarito de provas. Eis que descobri o pythontex! Uma rápida pesquisa no google me levou ao site: A very simple introduction to using Python in Latex
