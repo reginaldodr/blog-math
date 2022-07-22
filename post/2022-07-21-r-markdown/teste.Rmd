@@ -14,7 +14,7 @@ type: post
 bibliography: references.bib
 link-citations: TRUE
 output: html_document
-draft: yes
+draft: no
 ---
 ## Relation between distributional derivatives in $L^2(0,T;L^2(\Omega))$ and  $L^2(Q)$
 
