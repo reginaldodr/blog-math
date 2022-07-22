@@ -99,9 +99,9 @@
           <br>
           <i class="fa fa-tags"> </i>
           
-            <a  href="https://reginaldodr.github.io/categories/distributions">distributions</a>
+            <a  href="https://reginaldodr.github.io/categories/mathematics">mathematics</a>
           
-            <a  href="https://reginaldodr.github.io/categories/derivative">derivative</a>
+            <a  href="https://reginaldodr.github.io/categories/research">research</a>
           
         
       </span>
@@ -109,12 +109,22 @@
   
   </section>
     
+<section>
+  <details closed class="toc">
+    <summary>Contents</summary>
+    
+  </details>
+</section>
+
 
     <section>
 
+<div id="TOC">
 
-<div id="relation-between-distributional-derivatives-in-l20tl2omega-and-l2q" class="section level1">
-<h1>Relation between distributional derivatives in <span class="math inline">\(L^2(0,T;L^2(\Omega))\)</span> and <span class="math inline">\(L^2(Q)\)</span></h1>
+</div>
+
+<div id="relation-between-distributional-derivatives-in-l20tl2omega-and-l2q" class="section level2">
+<h2>Relation between distributional derivatives in <span class="math inline">\(L^2(0,T;L^2(\Omega))\)</span> and <span class="math inline">\(L^2(Q)\)</span></h2>
 <div id="distributional-derivatives" class="section level3">
 <h3>1. Distributional Derivatives</h3>
 <p>Given <span class="math inline">\(T&gt;0\)</span> and <span class="math inline">\(\Omega\subset \mathbb{R}^n\)</span> an open set let us denote <span class="math inline">\(Q=(0,T)\times \Omega\)</span>. A function <span class="math inline">\(u\in L^2(Q)\)</span> can also be seen as a vector valued mapping in <span class="math inline">\(L^2(0,T;L^2(\Omega))\)</span>. This give us two notion of distributional derivatives. Our aim is prove they coincide. In order to do that, we need to introduce a fundamental density result given in <span class="citation">(<a href="#ref-friedlander1998introduction" role="doc-biblioref">Friedlander et al. 1998</a>)</span>.</p>
@@ -167,7 +177,21 @@ whence,
 \end{equation}\]</span>
 <p>
 <p>Since <span class="math inline">\(\mathcal{D}(0,T)\otimes \mathcal{D}(\Omega)\)</span> is dense in <span class="math inline">\(\mathcal{D}(Q)\)</span> (Theorem 1.2) we can define <span class="math inline">\(u&#39;\)</span> as a distribution in <span class="math inline">\(\mathcal{D}(Q)\)</span> and we also have that <span class="math inline">\(u&#39;=D_tu\in \mathcal{D}&#39;(Q)\)</span>.</p>
+<p>Similarly, we define</p>
+<p>
+<span class="math display">\[\begin{equation*}
+    \langle\!\langle u_{x_i},\varphi\otimes\psi\rangle\!\rangle:=(\langle u_{x_i}(t),\psi\rangle,\varphi)=-\int_0^T  (u,\psi_{x_i})\varphi\, dx=-\iint\limits_Q u(t,x)\varphi(t)\psi_{x_i}(x)\, dxdt=\langle\!\langle D_xu,\varphi\otimes \psi\rangle\!\rangle.
+\end{equation*}\]</span>
+</p>
+<p>And, we have that <span class="math inline">\(u_{x_i}=D_{x_i}u\)</span> in <span class="math inline">\(\mathcal{D}&#39;(Q)\)</span>.</p>
+<p>Therefore, we also can conclude that <span class="math inline">\(D_tu=u&#39;\in D&#39;(0,T;L^2(\Omega))\)</span> and <span class="math inline">\(D_{x_i}u=u_{x_i}\in L^2(0,T;H^{-1}(\Omega))\)</span>.</p>
+<p>Furthermore, we can see that <span class="math inline">\(u_{x_ix_j}\in L^2(0,T;H^{-2}(\Omega))\)</span>. Following the same reasoning, we can define <span class="math inline">\(u_{x_ix_j}\)</span> on <span class="math inline">\(\mathcal{D}(0,T)\otimes \mathcal{D}(\Omega)\)</span> and, by a density argument, extend it to <span class="math inline">\(\mathcal{D}(Q)\)</span> with <span class="math inline">\(D_{x_ix_j}u=u_{x_ix_j}\)</span> in <span class="math inline">\(\mathcal{D}&#39;(Q)\)</span>. Similarly, <span class="math inline">\(u_{tt}\in \D&#39;(0,T;L^2(\Omega))\)</span>, then we can define <span class="math inline">\(u&#39;&#39;\)</span> as a distribution <span class="math inline">\(\mathcal{D}&#39;(Q)\)</span> with <span class="math inline">\(D_{tt}u=u&#39;&#39;\)</span>.</p>
+<p>Therefore, from now on, we will stop using the <span class="math inline">\(D\)</span>-notation for distributional derivative in <span class="math inline">\(Q\)</span> and use the same notation of vector-distribution.</p>
+</div>
+<div id="application-to-ultra-weak-solution-of-wave-equation" class="section level3">
+<h3>2. Application to ultra-weak solution of wave equation</h3>
 <p><span class="citation">(<a href="#ref-lions1988" role="doc-biblioref">Lions 1988</a>)</span></p>
+</div>
 </div>
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>
@@ -177,7 +201,6 @@ Friedlander, Friedrich Gerard, Mark Suresh Joshi, M Joshi, and Mohan C Joshi. 19
 </div>
 <div id="ref-lions1988" class="csl-entry">
 Lions, Jaques-Louis. 1988. <em>Contrôlabilité Exacte, Perturbations Et Stabilisation de Systémes Distribués</em>. Masson, Paris.
-</div>
 </div>
 </div>
 </div>
@@ -193,8 +216,6 @@ Lions, Jaques-Louis. 1988. <em>Contrôlabilité Exacte, Perturbations Et Stabili
     </div>
 
     <div class="next-post", style="display:inline-block;float:right;">
-      
-      <a class="link-reverse" href="https://reginaldodr.github.io/blog-math/post/2022-07-18-distribuitions/?ref=footer">Relation between distributional derivatives »</a>
       
     </div>
 

@@ -9,11 +9,13 @@ categories:
 tags:
 - distributions
 - derivative
+toc: true
+type: post
 bibliography: references.bib
 link-citations: TRUE
 output: html_document
 ---
-# Relation between distributional derivatives in $L^2(0,T;L^2(\Omega))$ and  $L^2(Q)$
+## Relation between distributional derivatives in $L^2(0,T;L^2(\Omega))$ and  $L^2(Q)$
 
 
 ### 1. Distributional Derivatives
@@ -86,6 +88,28 @@ Given $\varphi\in \mathcal{D}(0,T)$ and $\psi\in \mathcal{D}(\Omega)$, we define
 <p>
 
 Since $\mathcal{D}(0,T)\otimes \mathcal{D}(\Omega)$ is dense in $\mathcal{D}(Q)$ (Theorem 1.2) we can define $u'$ as a distribution in $\mathcal{D}(Q)$ and we also have that $u'=D_tu\in \mathcal{D}'(Q)$.
+
+Similarly, we define 
+
+<p>
+\begin{equation*}
+	\langle\!\langle u_{x_i},\varphi\otimes\psi\rangle\!\rangle:=(\langle u_{x_i}(t),\psi\rangle,\varphi)=-\int_0^T  (u,\psi_{x_i})\varphi\, dx=-\iint\limits_Q u(t,x)\varphi(t)\psi_{x_i}(x)\, dxdt=\langle\!\langle D_xu,\varphi\otimes \psi\rangle\!\rangle.
+\end{equation*}
+</p>
+And, we have that $u_{x_i}=D_{x_i}u$ in $\mathcal{D}'(Q)$.
+
+Therefore, we also can conclude that $D_tu=u'\in D'(0,T;L^2(\Omega))$ and $D_{x_i}u=u_{x_i}\in L^2(0,T;H^{-1}(\Omega))$.
+
+Furthermore, we can see that $u_{x_ix_j}\in L^2(0,T;H^{-2}(\Omega))$. Following the same reasoning, we can define $u_{x_ix_j}$ on $\mathcal{D}(0,T)\otimes \mathcal{D}(\Omega)$ and, by a density argument, extend it to $\mathcal{D}(Q)$ with $D_{x_ix_j}u=u_{x_ix_j}$ in $\mathcal{D}'(Q)$. Similarly,  $u_{tt}\in \D'(0,T;L^2(\Omega))$, then we can define $u''$ as a distribution $\mathcal{D}'(Q)$ with $D_{tt}u=u''$. 
+
+Therefore, from now on, we will stop using the $D$-notation for distributional derivative in $Q$ and use the same notation of vector-distribution. 
+
+
+### 2. Application to ultra-weak solution of wave equation
+
+
+
+
 
 [@lions1988]
 
