@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<title>Reginaldo Demarque - Como criei este blog</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description"
+    content="Como Usar R blogdown e Github para criar um blog ou site Este post é um resumo, para futuras referências de como criar um blog e hospedar no githug pages. Depois de muito &ldquo;fuçar&rdquo; na internet, eu encontrei este excelente tutorial:
+https://womendotcode.be/blog/how-to-make-blog-with-r-blogdown-and-github-pages/
+Neste tutorial, a autora ensina como usar o R Studio &#43; Blogdown para construir o blog e depois como hospedar Github pages.
+Muito tutoriais, muito bons aliás, ensinam basicamente a mesma coisa, mas todos usam o Netlify para hospedar o site no github, como este aqui: ">
+<link rel="canonical" href="https://reginaldodr.github.io/blog-math/post/2022-07-22-como-usar-hugo-e-github-para/" />
+
+<link rel="icon" type="image/x-icon" href="/blog-math/favicon/favicon.ico">
+  
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
+
+
+<link rel="stylesheet" href="/blog-math/css/hugo-tufte.min.css">
+
+<link rel="stylesheet"  href="/css/hugo-tufte-override.css">
+
+
+
+</head>
+<body >
+        
+<div id="layout" class="pure-g">
+  <article class="pure-u-1">
+    <header class="brand">
+  <a href="https://reginaldodr.github.io/blog-math/"><h1>Reginaldo Demarque</h1></a>
+  <h2></h2>
+  <nav class="menu">
+    <ul>
+    
+        <li><a href="/blog-math/"><i class='fas fa-home la-lg'></i>Home</a></li>
+    
+        <li><a href="/blog-math/post"><i class='fas fa-book fa-lg'></i> Posts</a></li>
+    
+        <li><a href="/blog-math/categories"><i class='fas fa-tags fa-lg'></i> Categories</a></li>
+    
+        <li><a href="/blog-math/about"><i class='fas fa-info-circle  fa-lg'></i> About</a></li>
+    
+    </ul>
+</nav>
+
+  <hr />
+</header>
+
+    <section>
+  
+  <h1 class="content-title">
+    
+    <a href="/blog-math/post/2022-07-22-como-usar-hugo-e-github-para/">Como criei este blog</a>
+    
+  </h1>
+  
+    
+    
+      <span class="content-meta">
+        
+          <i class="fa fa-user">&nbsp;</i><span class="author">
+            &nbsp;Reginaldo Demarque</span> <br>
+        
+    
+            
+        
+          <i class="fa fa-calendar"></i>
+          &nbsp;Jul 22, 2022
+        
+    
+        
+          &nbsp;<i class="fa fa-clock-o"></i>
+          &nbsp;3 min read
+        
+    
+        
+          <br>
+          <i class="fa fa-tags"> </i>
+          
+            <a  href="https://reginaldodr.github.io/categories/tools">tools</a>
+          
+            <a  href="https://reginaldodr.github.io/categories/blog">blog</a>
+          
+        
+      </span>
+    
+  
+  </section>
+    
+
+    <section><h2 id="como-usar--r-blogdown-e-github-para-criar-um-blog-ou-site">Como Usar  R blogdown e Github para criar um blog ou site</h2>
+<p>Este post é um resumo, para futuras referências de como criar um blog e hospedar no githug pages. Depois de muito &ldquo;fuçar&rdquo; na internet, eu encontrei este excelente tutorial:</p>
+<blockquote>
+<p><a href="https://womendotcode.be/blog/how-to-make-blog-with-r-blogdown-and-github-pages/">https://womendotcode.be/blog/how-to-make-blog-with-r-blogdown-and-github-pages/</a></p>
+</blockquote>
+<p>Neste tutorial, a autora ensina como usar o R Studio + Blogdown para construir o blog e depois como hospedar Github pages.</p>
+<p>Muito tutoriais, muito bons aliás, ensinam basicamente a mesma coisa, mas todos usam o Netlify para hospedar o site no github, como este aqui:</p>
+<blockquote>
+<p><a href="https://youtu.be/9Jqvaoeh1W4">https://youtu.be/9Jqvaoeh1W4</a></p>
+</blockquote>
+<p>O que me incomoda com o Netlify é que no final ele gera um domínio contendo no nome &ldquo;netlify.app&rdquo; e eu queria algo somente do github.</p>
+<p>Então vou resumir o que está no primeiro tutorial. Lembrando que uso o Ubuntu como sistema operacional:</p>
+<h2 id="criar-o-blog">Criar o Blog</h2>
+<ol>
+<li>Instalar o R e o RStudio</li>
+<li>No RStudio Instalar o Blogdown e Hugo. <a href="https://youtu.be/9Jqvaoeh1W4">veja como fazer aqui</a></li>
+<li>Escolher um Hugo theme em: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></li>
+<li>Criar um Novo Projeto no RStudio.</li>
+</ol>
+<p>Para construir o blog bast usar o comando:</p>
+<blockquote>
+<p>blogdown::build_site()</p>
+</blockquote>
+<p>Para ver o blog basta usar o comando:</p>
+<blockquote>
+<p>blogdown::serve_site()</p>
+</blockquote>
+<p>Com esses comandos vc já consegue ver e manipular o site.</p>
+<h2 id="preparar-o-site-para-colcoar-no-github-pages">Preparar o site para colcoar no github pages</h2>
+<ol>
+<li>Criar uma conta no github</li>
+<li>Criar um novo repositório</li>
+<li>Modificar o arquivo config.yaml</li>
+</ol>
+<p>Neste passo, vou tentar esclarecer um ponto que ficou confuso para mim no tutorial.</p>
+<ul>
+<li>Modificar o baseurl: https://&lt;user_name&gt;.github.io/&lt;repo_name&gt;.</li>
+<li>Mudar a pasta /public para outra pasta.</li>
+</ul>
+<blockquote>
+<p>A pasta /public é onde o blogdown constroi o site. Para colocar no github a gente vai mudar esta pasta de lugar. Para isso, primeiro criamos uma pasta nova fora da pasta onde o está o projeto do blog. A sugestão do tutorial é criar esta pasta um nível acima da pasta /public, ou seja, no mesmo nível da pasta do projeto. Por exemplo se pasta do projeto é rblog_example e está dentro do diretório /home. Cria-se uma nova pasta /myblog também dentro da pasta /home.</p>
+</blockquote>
+<p>Daí, a gente vai no config.yaml e muda/acrescenta a seguinte linha:</p>
+<blockquote>
+<p>publishdir: ../myblog</p>
+</blockquote>
+<p><strong>Atenção:</strong> Dependendo do tema, o nome deste item pode mudar.</p>
+<p>Pronto, agora toda vez que rodar o comando blogdown::build_site() ele vai construir o site nessa pasta para ser hospedada no github.</p>
+<h2 id="hospedar-no-github-pela-pimeira-vez">Hospedar no github pela pimeira vez</h2>
+<p>No terminal, entrar na pasta /myblog e digitar na sequência:</p>
+<blockquote>
+<p>git init<br>
+git add .<br>
+git commit -m &ldquo;&lt;algum comentário&gt;&rdquo;<br>
+git branch -M main<br>
+git remote add origin <a href="https://github.com/">https://github.com/</a>&lt;nome do repositório&gt;<br>
+git push -u origin main</p>
+</blockquote>
+<p>Pronto, agora a pasta foi enviada para o github pages. Depois disso basta ir no repositório, em settings-&gt;pages e escolher main e directory /root e salvar. Com isso o site estará criado e já terá um link.</p>
+<h2 id="publicar-modificiaçções">Publicar modificiaçções</h2>
+<p>Todas as vezes que modificar o site e quiser publicar as modificações, basta:</p>
+<ol>
+<li>Construir o site novamente com blogdowm::build_site()</li>
+<li>No terminal entrar na pasta /myblog e executar:</li>
+</ol>
+<blockquote>
+<p>git add .<br>
+git commit -m &ldquo;Atualização XXX&rdquo;<br>
+git push origin main</p>
+</blockquote>
+<h2 id="referências">Referências</h2>
+<p><a href="https://youtube.com/playlist?list=PLZ6zIk89thSTKYyx6RbCsMgN_M_ghAW8j">Playlist no youtube</a></p>
+</section>
+    <section>
+      <footer class="page-footer">
+		<hr>
+
+    <div class="previous-post" style="display:inline-block;">
+      
+      <a class="link-reverse" href="https://reginaldodr.github.io/blog-math/post/2022-07-21-r-markdown/teste/?ref=footer">« Relation between distributional derivatives</a>
+      
+    </div>
+
+    <div class="next-post", style="display:inline-block;float:right;">
+      
+    </div>
+
+		<ul class="page-footer-menu">
+
+      
+      
+      <li><a href="https://twitter.com/reginaldodr"><i class='fab fa-twitter fa-lg'></i></a></li>
+      
+
+      
+      <li><a href="https://github.com/reginaldodr"><i class='fab fa-github fa-lg'></i></a></li>
+      
+
+      
+
+      
+
+      
+      <li><a href="https://www.youtube.com/c/ProfReginaldoDemarque"><i class='fab fa-youtube la-lg'></i></a></li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li><a href="https://orcid.org/0000-0001-6891-7665"><i class='fab fa-orcid la-lg'></i></a></li>
+      
+
+      
+      <li><a href="https://scholar.google.com/citations?user=taNb4t4AAAAJ%26hl%3dpt-BR%26oi%3dao"><i class='fas fa-graduation-cap la-lg'></i></a></li>
+      
+      
+      
+        <li><a href="https://www.professores.uff.br/reginaldodr/"><i class='fab fa-google fa-lg'></i>  Site</a></li>
+      
+		</ul>
+
+  
+    <p>
+      Powered by <a href="https://gohugo.io">Hugo</a> and the
+      <a href="https://github.com/slashformotion/hugo-tufte">Tufte theme</a>.
+    </p>
+  
+
+	<div class="copyright">
+	<p>
+    
+      &copy; 2022
+    Copyright Holder.
+    All rights reserved.
+    
+  </p>
+</div>
+</footer>
+
+    </section>
+  </article>
+</div>
+
+    </body>
+
+</html>

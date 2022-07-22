@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Studio on Reginaldo Demarque</title>
+    <link>https://reginaldodr.github.io/blog-math/tags/r-studio/</link>
+    <description>Recent content in R Studio on Reginaldo Demarque</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/tags/r-studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como criei este blog</title>
+      <link>https://reginaldodr.github.io/blog-math/post/2022-07-22-como-usar-hugo-e-github-para/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/post/2022-07-22-como-usar-hugo-e-github-para/</guid>
+      <description>Como Usar R blogdown e Github para criar um blog ou site Este post é um resumo, para futuras referências de como criar um blog e hospedar no githug pages. Depois de muito &amp;ldquo;fuçar&amp;rdquo; na internet, eu encontrei este excelente tutorial:
+https://womendotcode.be/blog/how-to-make-blog-with-r-blogdown-and-github-pages/
+Neste tutorial, a autora ensina como usar o R Studio + Blogdown para construir o blog e depois como hospedar Github pages.
+Muito tutoriais, muito bons aliás, ensinam basicamente a mesma coisa, mas todos usam o Netlify para hospedar o site no github, como este aqui:</description>
+    </item>
+    
+  </channel>
+</rss>

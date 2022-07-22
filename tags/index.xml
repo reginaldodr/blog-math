@@ -6,7 +6,61 @@
     <description>Recent content in Tags on Reginaldo Demarque</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blogdown</title>
+      <link>https://reginaldodr.github.io/blog-math/tags/blogdown/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://reginaldodr.github.io/blog-math/tags/github/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://reginaldodr.github.io/blog-math/tags/hugo/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://reginaldodr.github.io/blog-math/tags/linux/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Studio</title>
+      <link>https://reginaldodr.github.io/blog-math/tags/r-studio/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/tags/r-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://reginaldodr.github.io/blog-math/tags/ubuntu/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>derivative</title>
       <link>https://reginaldodr.github.io/blog-math/tags/derivative/</link>
@@ -35,11 +89,20 @@
     </item>
     
     <item>
-      <title>Python</title>
+      <title>python</title>
       <link>https://reginaldodr.github.io/blog-math/tags/python/</link>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://reginaldodr.github.io/blog-math/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pythontex</title>
+      <link>https://reginaldodr.github.io/blog-math/tags/pythontex/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/tags/pythontex/</guid>
       <description></description>
     </item>
     

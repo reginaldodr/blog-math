@@ -3,10 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://reginaldodr.github.io/blog-math/</loc>
-    <lastmod>2022-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/categories/blog/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/tags/blogdown/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reginaldodr.github.io/blog-math/categories/</loc>
-    <lastmod>2022-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/post/2022-07-22-como-usar-hugo-e-github-para/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/tags/github/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/tags/hugo/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/tags/linux/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/post/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/tags/r-studio/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/tags/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/categories/tools/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/tags/ubuntu/</loc>
+    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reginaldodr.github.io/blog-math/tags/derivative/</loc>
     <lastmod>2022-07-21T00:00:00+00:00</lastmod>
@@ -17,16 +50,10 @@
     <loc>https://reginaldodr.github.io/blog-math/categories/mathematics/</loc>
     <lastmod>2022-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://reginaldodr.github.io/blog-math/post/</loc>
-    <lastmod>2022-07-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://reginaldodr.github.io/blog-math/post/2022-07-21-r-markdown/teste/</loc>
     <lastmod>2022-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reginaldodr.github.io/blog-math/categories/research/</loc>
-    <lastmod>2022-07-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://reginaldodr.github.io/blog-math/tags/</loc>
     <lastmod>2022-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reginaldodr.github.io/blog-math/post/2022-07-21-como-usar-python-no-latex/</loc>
@@ -35,13 +62,13 @@
     <loc>https://reginaldodr.github.io/blog-math/tags/latex/</loc>
     <lastmod>2022-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://reginaldodr.github.io/blog-math/categories/latex/</loc>
-    <lastmod>2022-07-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://reginaldodr.github.io/blog-math/tags/python/</loc>
     <lastmod>2022-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://reginaldodr.github.io/blog-math/categories/python/</loc>
+    <loc>https://reginaldodr.github.io/blog-math/tags/pythontex/</loc>
+    <lastmod>2022-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reginaldodr.github.io/blog-math/categories/tool/</loc>
     <lastmod>2022-07-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reginaldodr.github.io/blog-math/series/</loc>

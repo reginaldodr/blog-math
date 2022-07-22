@@ -9,7 +9,7 @@ categories:
 tags:
 - distributions
 - derivative
-toc: true
+toc: yes
 type: post
 bibliography: references.bib
 link-citations: TRUE

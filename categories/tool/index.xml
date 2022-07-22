@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Reginaldo Demarque</title>
-    <link>https://reginaldodr.github.io/blog-math/tags/python/</link>
-    <description>Recent content in python on Reginaldo Demarque</description>
+    <title>tool on Reginaldo Demarque</title>
+    <link>https://reginaldodr.github.io/blog-math/categories/tool/</link>
+    <description>Recent content in tool on Reginaldo Demarque</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/categories/tool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como usar Python no LaTeX</title>
       <link>https://reginaldodr.github.io/blog-math/post/2022-07-21-como-usar-python-no-latex/</link>

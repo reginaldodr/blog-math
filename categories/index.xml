@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Reginaldo Demarque</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reginaldodr.github.io/blog-math/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://reginaldodr.github.io/blog-math/categories/blog/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://reginaldodr.github.io/blog-math/categories/tools/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reginaldodr.github.io/blog-math/categories/tools/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>mathematics</title>
       <link>https://reginaldodr.github.io/blog-math/categories/mathematics/</link>
@@ -26,20 +44,11 @@
     </item>
     
     <item>
-      <title>latex</title>
-      <link>https://reginaldodr.github.io/blog-math/categories/latex/</link>
+      <title>tool</title>
+      <link>https://reginaldodr.github.io/blog-math/categories/tool/</link>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://reginaldodr.github.io/blog-math/categories/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://reginaldodr.github.io/blog-math/categories/python/</link>
-      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://reginaldodr.github.io/blog-math/categories/python/</guid>
+      <guid>https://reginaldodr.github.io/blog-math/categories/tool/</guid>
       <description></description>
     </item>
     
